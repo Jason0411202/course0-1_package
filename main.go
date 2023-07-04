@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"course0+1/calculate"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("hello, world")
+	a := 10
+	b := 5
+	fmt.Println(calculate.Max(a, b))
 }
